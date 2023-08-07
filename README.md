@@ -1,5 +1,5 @@
 # Node-Express-JS-Notebook
-Notes for Node js and Express js
+My notebook for learning nodejs and Expressjs
 
 ## Key concepts
 * __dirname: gives us the path of our directory

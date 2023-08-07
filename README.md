@@ -24,3 +24,16 @@ const USER = "Bushra"
 module.exports = { PI, USER}
 ```
 
+## path Module
+
+```js
+const path = require('path')
+console.log(path.resolve(path))
+```
+this returns an absolute path of the paths specified
+
+```js
+const joinedPath = path.join(file1, file2, file3)
+console.log(joinedPath)
+```
+returns a file path that has joined the the three files.

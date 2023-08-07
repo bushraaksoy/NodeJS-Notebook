@@ -80,4 +80,4 @@ This will create a new file with the path specified and with the name specified 
 ```js
 fs.writeFileSync(filePath, content, {flag: a}
 ```
-
+<b>readFIleSync and writeFileSync are all syncronous and next is readFile and writeFile which are asyncronous</b>

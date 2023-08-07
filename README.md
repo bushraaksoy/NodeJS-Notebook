@@ -17,7 +17,7 @@ module.exports = sayHi;
 ```
 For multiple item exports (one way):
 
-```
+```javascript
 const PI = 3.14
 const USER = "Bushra"
 

@@ -11,7 +11,7 @@ Notes for Node js and Express js
 
 For single item exposts:
 
-```javascript
+```js
 const sayHi = (name) => {console.log(`Heyy there ${name}`)}
 module.exports = sayHi;
 ```

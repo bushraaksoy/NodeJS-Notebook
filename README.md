@@ -26,10 +26,14 @@ module.exports = { PI, USER}
 
 ## path Module
 
-### resolve()
 ```js
 const path = require('path')
-console.log(path.resolve(path))
+```
+
+### resolve()
+```js
+const absolutePath = path.resolve(path)
+console.log(absolutePath)
 ```
 this returns an absolute path of the paths specified
 
@@ -46,4 +50,34 @@ const fileName = path.basename(path)
 console.log(fileName)
 ```
 reurns the base name of the file path
+
+### sep()
+```js
+console.log(path.sep)
+```
+returns the separator for the file paths
+
+## fs Module
+
+```js
+const fs = require('fs')
+```
+### readFileSync()
+```js
+// standard encoding type is 'utf-8'
+const file = fs.readFileSync(fileName, encodingType)
+console.log(file)
+```
+this code will print out all the contents of the filename specified
+
+### writeFileSync()
+```js
+fs.witeFileSync(filePath, content)
+```
+
+This will create a new file with the path specified and with the name specified at filePath, and add the content specified inside it.
+
+```js
+fs.writeFileSync(filePath, content, {flag: a}
+```
 

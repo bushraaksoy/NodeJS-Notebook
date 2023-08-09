@@ -1,5 +1,6 @@
 # Modules
 
+* path
 * fs
 * util
 * http

@@ -1,7 +1,7 @@
 # Node-Express-JS-Notebook
 My notebook for learning nodejs and Expressjs
 
-## Key concepts
+## Some facts
 * __dirname: gives us the path of our directory
 * __filename: gives us the path of our file
 * require(): function for importing
